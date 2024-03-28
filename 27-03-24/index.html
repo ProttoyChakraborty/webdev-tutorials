@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"/>
-    <title>French Translator</title>
+    <title>Language Translator</title>
 </head>
 <body>
-    <h1>French Translator</h1>
+    <h1>Language Translator</h1>
     <div class="input">
-    <textarea rows="5" cols="33" name="input-text" id="input"></textarea>
-    <button onclick="handleClick(event)"">Translate</button>
+     <label for="Languages">Choose language to translate:</label>
+     <select  name="Languages" id="languages"></select>
+    <textarea  rows="5" cols="33" name="input-text" id="input"></textarea>
+    <button onclick="handleClick(event)"  id="button">Translate</button>
     </div>
-    <div id="output"></div>
+    <div id="output">Translated verbiage</div>
     <script src="./script.js" defer>
     </script>
 </body>
