@@ -1,0 +1,7 @@
+.profile-grid{
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -59,8 +59,6 @@ const addNumbers=(x:number|number[],y:number|number[])=>{
         }else{
             res=y
         }
-        for(var i=0;i<Math.min(l1,l2),i++){
-
-        }
+    
     }
 }
