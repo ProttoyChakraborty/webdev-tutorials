@@ -1,0 +1,8 @@
+.shopping-cart {
+    display: inline-flex;
+    height: 932px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-x1, 24px);
+    flex-shrink: 0;
+}
