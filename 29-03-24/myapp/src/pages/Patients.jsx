@@ -24,10 +24,10 @@ const Patients = () => {
     ]
   return (
     <>
-    <h1>Patients</h1>
+    <h1 className='text-4xl'>Patients</h1>
     <div class="profile-grid">
         {data.map((patient)=>{
-            return <ProfileCard name={patient.name} age={patient.age} address={patient.address}/>
+            return <ProfileCard key={patient.id} name={patient.name} age={patient.age} address={patient.address}/>
         })}
     </div>
     </>
