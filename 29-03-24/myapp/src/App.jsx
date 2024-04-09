@@ -6,12 +6,16 @@ import { lime, purple,blue,red} from '@mui/material/colors';
 
 const theme = createTheme({
   palette: {
-    primary: "#2196f3",
-    secondary: "#f44336",
+    primary: {
+      main:blue[500]
+    },
+    secondary:{
+      main:red[500]
+    }
   },
 });
 
-const App = () => {
+const App = ({date}) => {
   return (
     <ThemeProvider theme={theme}>
     <Patients/>
